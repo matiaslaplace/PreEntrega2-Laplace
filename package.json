@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/matiaslaplace/PreEntrega2-Laplace/issues"
   },
-  "homepage": "https://github.com/matiaslaplace/PreEntrega2-Laplace#readme"
+  "homepage": "https://github.com/matiaslaplace/PreEntrega2-Laplace#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }

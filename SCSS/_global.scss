@@ -47,7 +47,7 @@ nav {
 }
 
 header {
-  background-color: #f195ff;
+  background-color: $primarycolor;
   position: fixed;
   top: 0;
   width: 100%;
@@ -57,7 +57,7 @@ header {
 }
 
 .navback {
-  background: linear-gradient(to right, #f195ff, #f195ff);
+  background: linear-gradient(to right, $primarycolor, $primarycolor);
 }
 
 .footer2 {
