@@ -1,0 +1,58 @@
+.intro {
+  position: absolute;
+  margin-top: 10rem;
+  top: 12rem;
+  opacity: 80%;
+}
+
+.intro__parrafo {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.par1 {
+  position: absolute;
+  left: 40rem;
+  top: 20rem;
+  width: 30rem;
+  font-family: "Poppins", sans-serif;
+  text-shadow: white 1px 0 10px;
+}
+.par2 {
+  font-family: "Poppins", sans-serif;
+  text-shadow: white 1px 0 10px;
+  position: absolute;
+  left: 40rem;
+  top: 25rem;
+  width: 30rem;
+}
+.par3 {
+  position: absolute;
+  left: 40rem;
+  top: 30rem;
+  width: 30rem;
+  font-family: "Poppins", sans-serif;
+  text-shadow: white 1px 0 10px;
+}
+
+.Peng1 {
+  position: absolute;
+  top: 0;
+
+  z-index: -1;
+}
+
+.twinkle {
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

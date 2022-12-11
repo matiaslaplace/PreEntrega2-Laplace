@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5rem;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .nav__link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.intro__contet {
+  display: flex;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #f195ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  box-shadow: 0px 0px 10px 0px;
+  z-index: 1;
+}
+
+.navback {
+  background: linear-gradient(to right, #f195ff, #f195ff);
+}
+
+.footer2 {
+  background-color: black;
+}
+
+.social {
+  height: 40;
+
+  gap: 1rem;
+}
+
+.copyright {
+  color: white;
+}
+
+.marg1 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.indexback {
+  background-color: rgb(230, 190, 255, 1);
+  background-image: linear-gradient(
+    184deg,
+    rgba(159, 45, 253, 1) 1%,
+    rgba(230, 190, 255, 1) 69%
+  );
+  background-image: url(../Images/Header-squishys.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.logo {
+  position: absolute;
+  top: 4rem;
+  height: 15rem;
+}
+
+.ola {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 32rem;
+}

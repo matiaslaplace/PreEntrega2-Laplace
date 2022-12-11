@@ -1,0 +1,22 @@
+.faqimg {
+  position: absolute;
+  top: 6rem;
+  width: 75%;
+}
+
+.faqback {
+  background: rgb(127, 229, 157);
+  background: radial-gradient(
+    circle,
+    rgba(127, 229, 157, 1) 1%,
+    rgba(161, 182, 193, 1) 69%
+  );
+}
+
+.zoomhover {
+  transition: 0.5s all ease-in-out;
+}
+
+.zoomhover:hover {
+  transform: scale(1.1);
+}
