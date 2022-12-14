@@ -38,10 +38,6 @@ h1 {
   }
 }
 
-.intro__contet {
-  display: flex;
-}
-
 nav {
   font-family: "Poppins", sans-serif;
 }
@@ -77,29 +73,4 @@ header {
 .marg1 {
   margin-top: 6rem;
   margin-bottom: 2rem;
-}
-
-.indexback {
-  background-color: rgb(230, 190, 255, 1);
-  background-image: linear-gradient(
-    184deg,
-    rgba(159, 45, 253, 1) 1%,
-    rgba(230, 190, 255, 1) 69%
-  );
-  background-image: url(../Images/Header-squishys.png);
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
-.logo {
-  position: absolute;
-  top: 4rem;
-  height: 15rem;
-}
-
-.ola {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  top: 32rem;
 }

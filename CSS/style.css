@@ -36,10 +36,6 @@ h1 {
   opacity: 0.8;
 }
 
-.intro__contet {
-  display: flex;
-}
-
 nav {
   font-family: "Poppins", sans-serif;
 }
@@ -76,76 +72,28 @@ header {
   margin-bottom: 2rem;
 }
 
-.indexback {
-  background-color: rgb(230, 190, 255);
-  background-image: linear-gradient(
-    184deg,
-    rgb(159, 45, 253) 1%,
-    rgb(230, 190, 255) 69%
-  );
-  background-image: url(../Images/Header-squishys.png);
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 .logo {
   position: absolute;
-  top: 4rem;
-  height: 15rem;
-}
-
-.ola {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  top: 32rem;
+  margin-left: 5%;
+  margin-top: 4rem;
+  width: 40%;
 }
 
 .intro {
-  position: absolute;
-  margin-top: 10rem;
-  top: 12rem;
-  opacity: 80%;
+  background-color: white;
 }
 
-.intro__parrafo {
-  display: flex;
-  justify-content: right;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.par1 {
-  position: absolute;
-  left: 40rem;
-  top: 20rem;
-  width: 30rem;
-  font-family: "Poppins", sans-serif;
-  text-shadow: white 1px 0 10px;
-}
-
-.par2 {
-  font-family: "Poppins", sans-serif;
-  text-shadow: white 1px 0 10px;
-  position: absolute;
-  left: 40rem;
-  top: 25rem;
-  width: 30rem;
-}
-
-.par3 {
-  position: absolute;
-  left: 40rem;
-  top: 30rem;
-  width: 30rem;
-  font-family: "Poppins", sans-serif;
-  text-shadow: white 1px 0 10px;
+.ola {
+  width: 100%;
+  z-index: -1;
+  margin-top: 32rem;
 }
 
 .Peng1 {
   position: absolute;
   top: 0;
+  width: 1400px;
+
   z-index: -1;
 }
 
@@ -161,6 +109,21 @@ header {
     opacity: 1;
   }
 }
+.indexback {
+  background-color: rgb(230, 190, 255);
+  background-image: linear-gradient(
+    184deg,
+    rgb(159, 45, 253) 1%,
+    rgb(230, 190, 255) 69%
+  );
+  background-image: url(../Images/Header-squishys.png);
+  background-position: 60%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 1rem;
+}
+
 .buyButton {
   transform: scale(0.4);
   z-index: 2;
